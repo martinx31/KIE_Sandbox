@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_24C8832D-6144-4673-A62A-148F68D449C8" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_291E2561-338C-45DF-8623-CBFC1BAF125F" name="Untitled" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_24C8832D-6144-4673-A62A-148F68D449C8">
   <dmn:extensionElements/>
-  <dmn:itemDefinition id="_C01D02DD-97E0-409D-AF94-6EBE602DE866" name="Aseguradora" isCollection="false">
+  <dmn:itemDefinition id="_F2412921-51ED-41F8-8E6A-EA1D334237FB" name="Aseguradora" isCollection="false">
     <dmn:typeRef>string</dmn:typeRef>
   </dmn:itemDefinition>
-  <dmn:itemDefinition id="_EBAB2085-F175-4A96-9F35-AB9C27DB41B0" name="Sucursal" isCollection="false">
+  <dmn:itemDefinition id="_FF708DE7-FFF0-48DD-A351-0C4205B26E8B" name="Sucursal" isCollection="false">
     <dmn:typeRef>string</dmn:typeRef>
   </dmn:itemDefinition>
   <dmn:decisionService id="_CBB174FA-D50F-474F-838D-369317AF972C" name="Validaciones">
@@ -19,19 +19,19 @@
   </dmn:decisionService>
   <dmn:inputData id="_4CF37B07-83BB-4F98-B1E7-DA5BBD8028DB" name="Aseguradora">
     <dmn:extensionElements/>
-    <dmn:variable id="_EE9A12FC-89BE-4D1C-BAB6-67DD840C3F14" name="Aseguradora" typeRef="Aseguradora"/>
+    <dmn:variable id="_EE9A12FC-89BE-4D1C-BAB6-67DD840C3F14" name="Aseguradora"/>
   </dmn:inputData>
   <dmn:decision id="_CA2C9158-538A-40AA-9B7F-01994F5A160B" name="Validación_Sucursales">
     <dmn:extensionElements/>
     <dmn:variable id="_5637B25A-D594-449D-AEE3-1E97D308277D" name="Validación_Sucursales" typeRef="boolean"/>
-    <dmn:informationRequirement id="_27ADCE62-F8CA-4421-84EA-13DEAAEBE641">
-      <dmn:requiredInput href="#_23E99EE4-6676-46B5-B1F1-8918597EAA82"/>
-    </dmn:informationRequirement>
     <dmn:informationRequirement id="_91BE8834-72F4-4D50-8F14-E281EDD5B77E">
       <dmn:requiredDecision href="#_2AC32492-8375-4E22-9EB4-543B37F9188D"/>
     </dmn:informationRequirement>
     <dmn:informationRequirement id="_A8EB3884-FDD3-47F4-8B4E-4925CBF1D18E">
       <dmn:requiredDecision href="#_6AD534F5-5BD8-4DD9-9A96-5558BBCE1623"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_27ADCE62-F8CA-4421-84EA-13DEAAEBE641">
+      <dmn:requiredInput href="#_23E99EE4-6676-46B5-B1F1-8918597EAA82"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_DA35ECD2-26B9-45C7-92C6-86F4E5E1347E">
       <dmn:text>if Validación_Aseguradora = true and Sucursal in Lista_Sucursales then true else false</dmn:text>
@@ -80,10 +80,6 @@
       <dmn:text>if Aseguradora in Lista_Aseguradoras then true else false</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:inputData id="_23E99EE4-6676-46B5-B1F1-8918597EAA82" name="Sucursal">
-    <dmn:extensionElements/>
-    <dmn:variable id="_D38449B4-C7F5-4848-A1DD-D919ED5596FA" name="Sucursal" typeRef="Aseguradora"/>
-  </dmn:inputData>
   <dmn:decision id="_5D113852-3951-400C-BBAE-CCDE84BA63A2" name="Resultado">
     <dmn:extensionElements/>
     <dmn:variable id="_D5E2D2B2-F162-43D9-A363-A9DC23B8D82E" name="Resultado" typeRef="string"/>
@@ -95,6 +91,10 @@
 </dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
+  <dmn:inputData id="_23E99EE4-6676-46B5-B1F1-8918597EAA82" name="Sucursal">
+    <dmn:extensionElements/>
+    <dmn:variable id="_D38449B4-C7F5-4848-A1DD-D919ED5596FA" name="Sucursal"/>
+  </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_6EF86412-6575-4B66-BD07-80417259005C" name="DRG">
       <di:extension>
@@ -194,15 +194,6 @@
         <dc:Bounds x="261" y="313" width="156" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-drg-_23E99EE4-6676-46B5-B1F1-8918597EAA82" dmnElementRef="_23E99EE4-6676-46B5-B1F1-8918597EAA82" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="84.5981308411215" y="154.34210526315792" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_5D113852-3951-400C-BBAE-CCDE84BA63A2" dmnElementRef="_5D113852-3951-400C-BBAE-CCDE84BA63A2" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -212,10 +203,15 @@
         <dc:Bounds x="370" y="12.321000178164752" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="dmnedge-drg-_27ADCE62-F8CA-4421-84EA-13DEAAEBE641" dmnElementRef="_27ADCE62-F8CA-4421-84EA-13DEAAEBE641">
-        <di:waypoint x="134.5981308411215" y="179.34210526315792"/>
-        <di:waypoint x="265" y="180"/>
-      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="dmnshape-drg-_23E99EE4-6676-46B5-B1F1-8918597EAA82" dmnElementRef="_23E99EE4-6676-46B5-B1F1-8918597EAA82" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="84.5981308411215" y="154.34210526315792" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_91BE8834-72F4-4D50-8F14-E281EDD5B77E" dmnElementRef="_91BE8834-72F4-4D50-8F14-E281EDD5B77E">
         <di:waypoint x="538.5" y="180"/>
         <di:waypoint x="412" y="180"/>
@@ -223,6 +219,10 @@
       <dmndi:DMNEdge id="dmnedge-drg-_A8EB3884-FDD3-47F4-8B4E-4925CBF1D18E" dmnElementRef="_A8EB3884-FDD3-47F4-8B4E-4925CBF1D18E">
         <di:waypoint x="339" y="338"/>
         <di:waypoint x="338.5" y="205"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_27ADCE62-F8CA-4421-84EA-13DEAAEBE641" dmnElementRef="_27ADCE62-F8CA-4421-84EA-13DEAAEBE641">
+        <di:waypoint x="134.5981308411215" y="179.34210526315792"/>
+        <di:waypoint x="265" y="180"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_45E8E701-E830-4B8F-A579-196F5A6739EE" dmnElementRef="_45E8E701-E830-4B8F-A579-196F5A6739EE">
         <di:waypoint x="134" y="336.3421052631579"/>
