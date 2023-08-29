@@ -52,10 +52,652 @@
     <dmn:extensionElements/>
     <dmn:variable id="_E467E4B9-9C93-429A-8DC3-C4FC957DA405" name="DatosIniciales" typeRef="tDatosIniciales"/>
   </dmn:inputData>
+  <dmn:decision id="_17FEFB88-5565-495B-A15D-5539C95FAF74" name="Diabetes y Medicamentos">
+    <dmn:extensionElements/>
+    <dmn:variable id="_E8F476DF-8C75-4645-970A-5F46AB7DC5C3" name="Diabetes y Medicamentos" typeRef="boolean"/>
+    <dmn:informationRequirement id="_CB974ED2-0BEF-4136-8F15-7A8658271852">
+      <dmn:requiredInput href="#_4EECC2E3-0AAF-438E-81F7-87F4329A53B5"/>
+    </dmn:informationRequirement>
+    <dmn:literalExpression id="_160667AF-135F-48B4-ABBF-A665C4FA14BF">
+      <dmn:text>if DatosIniciales.Embarazo = true and DatosIniciales.Edad &gt;=18 then true else false</dmn:text>
+    </dmn:literalExpression>
+  </dmn:decision>
+  <dmn:decision id="_620D4E5D-4F2F-4B64-8569-E61D98E95376" name="Lista D">
+    <dmn:extensionElements/>
+    <dmn:variable id="_A40B88C2-75FB-4FDC-BABC-B92F48D12084" name="Lista D" typeRef="string"/>
+    <dmn:list id="_4E6EA0FB-E65A-4456-947F-30CD0A2EBA15">
+      <dmn:literalExpression id="_02E77032-170A-4110-93F2-F16586061A14">
+        <dmn:text>"E100"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_212CE29E-6B9B-403F-B998-D5AEFFE725E2">
+        <dmn:text>"E101"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_87A55BE7-C2CF-4B37-B4B9-BF4D0D6E051D">
+        <dmn:text>"E102"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_F83FD7CD-B25E-4001-B7EF-57C556B0C4EA">
+        <dmn:text>"E103"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_08C1CFB8-2DCC-4670-B83D-8F233393EA48">
+        <dmn:text>"E104"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_59B3C179-20D9-4C82-9457-EB2515A498AF">
+        <dmn:text>"E105"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_2302FB39-0216-44A3-8DAA-F4889A2BF8E2">
+        <dmn:text>"E106"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_CF63C95E-DC79-4D78-BE8E-A9F4D7C6EE3D">
+        <dmn:text>"E107"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_3D8A901D-1CC7-49A1-86DF-9E43DD9ADF2E">
+        <dmn:text>"E108"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_B65F614E-D509-4834-8ECD-9996E55F5520">
+        <dmn:text>"E109"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_F673D654-FD78-4B5A-B24A-8689E340A704">
+        <dmn:text>"E110"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_89C24FE9-7185-44D5-8134-578E38C7F31E">
+        <dmn:text>"E111"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_FCE08E90-59EF-4762-9C2A-BA009B2B8474">
+        <dmn:text>"E112"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_E6A274B0-082F-4767-A8FE-A83DBF84BB4C">
+        <dmn:text>"E113"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_B6ECBDFE-83C7-46E2-887E-C864216A1F8D">
+        <dmn:text>"E114"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_0F8C5942-8ABC-4FC0-A2F8-99A04A21124A">
+        <dmn:text>"E115"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_F5B77A30-75B5-403C-9D75-98DDC00CD6D2">
+        <dmn:text>"E116"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_E2FFE5F6-DB63-4256-BA8F-09E5890BF408">
+        <dmn:text>"E117"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_51828760-CB0F-4A0F-8B37-BDEE748A9644">
+        <dmn:text>"E118"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_E2EDAB15-E1CF-4897-AB86-499E4033593D">
+        <dmn:text>"E119"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_723469D4-32B1-4265-AE51-D4C0F4E663B0">
+        <dmn:text>"E120"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_29A62136-FD68-4F5E-BCA9-72E7D8A5396C">
+        <dmn:text>"E121"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_E883C121-61A7-4788-9C3B-348C361C2C5F">
+        <dmn:text>"E122"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_C22AD320-54F8-441D-A81C-DA0C7E4BF4C1">
+        <dmn:text>"E123"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_CAD795FC-F015-46E0-9031-F36B5728E0B2">
+        <dmn:text>"E124"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_F82EE02A-E3E0-48F8-9771-C98720ACC8CA">
+        <dmn:text>"E125"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_95977631-FB92-4105-BB67-3F61405A058C">
+        <dmn:text>"E126"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_9FD0A9E9-E026-4AA9-88BF-C94E16EE9720">
+        <dmn:text>"E127"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_DB947EBB-FF2F-4F99-A3CB-532B9DCE36C1">
+        <dmn:text>"E128"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_2A987C52-D8A8-4F5A-91F8-D6F1CF714EB3">
+        <dmn:text>"E129"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_75A652A3-3918-4874-936A-5E722243048F">
+        <dmn:text>"E130"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_6E2204D1-7977-48EE-BB79-04B1477D16FF">
+        <dmn:text>"E131"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_C44459F0-417B-482B-8C25-76F43E4283AA">
+        <dmn:text>"E132"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_F60E4401-88BE-48DC-9BD0-6B074F6E47CC">
+        <dmn:text>"E133"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_81FB04CF-09B1-49E2-8764-92EF53A093F6">
+        <dmn:text>"E134"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_EE861D1A-89D6-4934-9225-FF42787E7197">
+        <dmn:text>"E135"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_F32C948B-F230-44BE-8444-12A901368A26">
+        <dmn:text>"E136"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_5A5EA0AB-DEFB-4ECE-ADC5-176195577A21">
+        <dmn:text>"E137"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_8D48023E-8D9B-49BF-86F7-638225AE5880">
+        <dmn:text>"E138"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_04D7C3F1-D877-48AE-9A52-C155CA83CB4C">
+        <dmn:text>"E139"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_2855CE06-14A5-4017-A3DE-2A869EA23101">
+        <dmn:text>"E140"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_051B5BF4-5255-4C65-85ED-3EDFEFCA8972">
+        <dmn:text>"E141"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_9B19994A-8567-4B90-BFB3-CE01D735330F">
+        <dmn:text>"E142"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_2CE6663E-4634-432D-A64F-7D30B24737D5">
+        <dmn:text>"E143"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_CBE253A8-D941-4ABB-A771-D6353CC5C8BC">
+        <dmn:text>"E144"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_E8A07A55-04A8-49E0-B29E-3B702A5DF922">
+        <dmn:text>"E145"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_CA6488C2-AE62-4AB9-9859-0102F2F0E20A">
+        <dmn:text>"E146"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_28E11D36-AB15-44D6-8B5A-BAA071E46978">
+        <dmn:text>"E147"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_DBF67BFF-F335-42F9-BB90-A08C8D755E01">
+        <dmn:text>"E148"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_7C0B8146-B933-4CDA-A9CB-B4222EDB1CCD">
+        <dmn:text>"E149"</dmn:text>
+      </dmn:literalExpression>
+    </dmn:list>
+  </dmn:decision>
+  <dmn:decision id="_84D44B05-A587-4ECC-AFCF-94260940BD62" name="Lista AMD">
+    <dmn:extensionElements/>
+    <dmn:variable id="_E90B18D7-03BB-41F1-8B4B-0532A7D529AF" name="Lista AMD" typeRef="string"/>
+    <dmn:list id="_429A1EC5-F0AA-4FC8-A880-0455FB8D8570">
+      <dmn:literalExpression id="_72C7666D-9DDE-4EA9-A850-5E7B220CD6E6">
+        <dmn:text>"E100"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_D7960BC1-758E-45B7-B2A1-D687C9861D19">
+        <dmn:text>"E101"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_D0448856-0A84-43DB-B403-AE7B2BB334D1">
+        <dmn:text>"E102"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_A7F3F535-D689-4A5D-BA3C-9803AC3240B4">
+        <dmn:text>"E103"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_9FF3C61C-6D5C-431E-9BA7-E977766AE6BC">
+        <dmn:text>"E104"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_DE796697-F9B1-46D3-A81B-B7C27380228F">
+        <dmn:text>"E105"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_08ABD5EB-81D7-4371-A15A-DA4AF58D40B2">
+        <dmn:text>"E106"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_551A138B-6EBE-4C67-BC7D-5764E02FF430">
+        <dmn:text>"E107"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_0704F65E-BC6C-4A0D-A9F1-EAAC631649C1">
+        <dmn:text>"E108"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_DCAF711B-67CF-40E2-8207-2749EEABB9BF">
+        <dmn:text>"E109"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_EF1148FD-8E20-484E-ACBE-A77A46348AB8">
+        <dmn:text>"E110"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_3679B6D2-4611-46FE-8E59-C85CEB770644">
+        <dmn:text>"E111"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_F51E054A-8392-4685-862F-71D4E285BB97">
+        <dmn:text>"E112"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_7171CD34-8054-42D0-9120-5E7874AF3218">
+        <dmn:text>"E113"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_B68A978B-4E34-4036-A63B-0BF0657C0719">
+        <dmn:text>"E114"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_81CF3694-E6C3-4764-9A73-0509939EB9BB">
+        <dmn:text>"E115"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_82A44722-4C98-457B-A56D-6F9DA8E11D76">
+        <dmn:text>"E116"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_6D6C8133-00E0-4CC1-AD3D-F867DA88A8BD">
+        <dmn:text>"E117"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_E808A490-51CB-4E86-B23F-C8172E53959E">
+        <dmn:text>"E118"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_5F22BF24-ACF4-49F3-9F03-F766B4EE4BBF">
+        <dmn:text>"E119"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_3C2B4E7F-5B9A-4706-8C17-9E824F27EB34">
+        <dmn:text>"E120"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_AA7E2F67-8D54-4C92-AB9A-E5F4741A51AF">
+        <dmn:text>"E121"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_83C968C5-22B2-4470-BDA9-326059C93D19">
+        <dmn:text>"E122"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_029FEB54-8EE0-449C-A362-D4EEE5183D2F">
+        <dmn:text>"E123"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_10289478-C376-4271-9457-5FCF15C454C5">
+        <dmn:text>"E124"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_4B67711C-C3DE-49B2-A6D2-B17A8FACD08B">
+        <dmn:text>"E125"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_83F810F9-454D-4322-BC5F-446547FC9B0A">
+        <dmn:text>"E126"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_357B02C8-A5AC-4A8F-BDB0-E73633013A7B">
+        <dmn:text>"E127"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_9120FC79-2069-405E-8404-DA2958C0F2F6">
+        <dmn:text>"E128"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_3D669695-6BE5-4132-91A4-B58F0074B0A9">
+        <dmn:text>"E129"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_D464B087-3FEC-4945-8E44-D5BA2F4F2027">
+        <dmn:text>"E130"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_F1FDAAF1-1122-4E3C-9E5E-92EE45FCC3DA">
+        <dmn:text>"E131"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_D880555B-CAAE-4396-83A3-6D2A5B4647FB">
+        <dmn:text>"E132"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_C986D039-FA97-457A-A464-349C719E2C06">
+        <dmn:text>"E133"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_0677C1CE-4F4A-44A6-B38E-F1BD17689E45">
+        <dmn:text>"E134"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_37844265-4043-41B6-A034-F8CF4778429F">
+        <dmn:text>"E135"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_E3E63F6F-838E-4D72-9175-842CED4AB7C0">
+        <dmn:text>"E136"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_B2DE2A98-2D85-4B37-B172-A5236322D8DA">
+        <dmn:text>"E137"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_42E5BD12-ED90-460B-BB91-BBF3EC8F4E6B">
+        <dmn:text>"E138"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_E883F491-CC23-4DF7-A441-B694F046F84C">
+        <dmn:text>"E139"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_9B41B53F-4A76-4236-89E5-6B52F3CA31F2">
+        <dmn:text>"E140"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_C1B10827-8FCD-40FE-9310-58E3BE526D48">
+        <dmn:text>"E141"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_D8324C6A-DDE0-41B7-B010-4D49C0742471">
+        <dmn:text>"E142"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_79F897DC-16ED-43DB-AF42-B52318CE24DD">
+        <dmn:text>"E143"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_644AD12F-6DBC-4311-B96D-F56E3BCB27B0">
+        <dmn:text>"E144"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_9EA73D5D-15AA-4AC2-B483-8A3809A00D61">
+        <dmn:text>"E145"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_87DD4ABD-C519-498B-AEB7-936065B9D376">
+        <dmn:text>"E146"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_E1657212-59D9-4297-B6DE-5AC0C47629D7">
+        <dmn:text>"E147"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_DB26FC2D-E6B5-471E-B84A-ABB459FC676C">
+        <dmn:text>"E148"</dmn:text>
+      </dmn:literalExpression>
+      <dmn:literalExpression id="_62486219-D9DB-4C6A-9FFF-7B281C3F429F">
+        <dmn:text>"E149"</dmn:text>
+      </dmn:literalExpression>
+    </dmn:list>
+  </dmn:decision>
+  <dmn:decision id="_348459B7-A9A6-40DA-8EF3-F99CEB8C63C0" name="Lista M">
+    <dmn:extensionElements/>
+    <dmn:variable id="_1D14B1FD-AA55-4E59-B4A0-8293695FD678" name="Lista M" typeRef="string"/>
+  </dmn:decision>
+  <dmn:decision id="_4B25EA71-FEEA-49FC-8514-5266EDBCD886" name="Lista AM">
+    <dmn:extensionElements/>
+    <dmn:variable id="_1DC58938-E2E8-44E4-BE21-EC3E227ECD1D" name="Lista AM" typeRef="string"/>
+  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_FE326437-9CA7-4E79-AD43-C5891D38F30E" name="DRG">
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_160667AF-135F-48B4-ABBF-A665C4FA14BF">
+            <kie:width>1006</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_4E6EA0FB-E65A-4456-947F-30CD0A2EBA15">
+            <kie:width>50</kie:width>
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_02E77032-170A-4110-93F2-F16586061A14">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_212CE29E-6B9B-403F-B998-D5AEFFE725E2">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_87A55BE7-C2CF-4B37-B4B9-BF4D0D6E051D">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F83FD7CD-B25E-4001-B7EF-57C556B0C4EA">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_08C1CFB8-2DCC-4670-B83D-8F233393EA48">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_59B3C179-20D9-4C82-9457-EB2515A498AF">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_2302FB39-0216-44A3-8DAA-F4889A2BF8E2">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_CF63C95E-DC79-4D78-BE8E-A9F4D7C6EE3D">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_3D8A901D-1CC7-49A1-86DF-9E43DD9ADF2E">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_B65F614E-D509-4834-8ECD-9996E55F5520">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F673D654-FD78-4B5A-B24A-8689E340A704">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_89C24FE9-7185-44D5-8134-578E38C7F31E">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_FCE08E90-59EF-4762-9C2A-BA009B2B8474">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E6A274B0-082F-4767-A8FE-A83DBF84BB4C">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_B6ECBDFE-83C7-46E2-887E-C864216A1F8D">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_0F8C5942-8ABC-4FC0-A2F8-99A04A21124A">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F5B77A30-75B5-403C-9D75-98DDC00CD6D2">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E2FFE5F6-DB63-4256-BA8F-09E5890BF408">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_51828760-CB0F-4A0F-8B37-BDEE748A9644">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E2EDAB15-E1CF-4897-AB86-499E4033593D">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_723469D4-32B1-4265-AE51-D4C0F4E663B0">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_29A62136-FD68-4F5E-BCA9-72E7D8A5396C">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E883C121-61A7-4788-9C3B-348C361C2C5F">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_C22AD320-54F8-441D-A81C-DA0C7E4BF4C1">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_CAD795FC-F015-46E0-9031-F36B5728E0B2">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F82EE02A-E3E0-48F8-9771-C98720ACC8CA">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_95977631-FB92-4105-BB67-3F61405A058C">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_9FD0A9E9-E026-4AA9-88BF-C94E16EE9720">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_DB947EBB-FF2F-4F99-A3CB-532B9DCE36C1">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_2A987C52-D8A8-4F5A-91F8-D6F1CF714EB3">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_75A652A3-3918-4874-936A-5E722243048F">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_6E2204D1-7977-48EE-BB79-04B1477D16FF">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_C44459F0-417B-482B-8C25-76F43E4283AA">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F60E4401-88BE-48DC-9BD0-6B074F6E47CC">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_81FB04CF-09B1-49E2-8764-92EF53A093F6">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_EE861D1A-89D6-4934-9225-FF42787E7197">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F32C948B-F230-44BE-8444-12A901368A26">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_5A5EA0AB-DEFB-4ECE-ADC5-176195577A21">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_8D48023E-8D9B-49BF-86F7-638225AE5880">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_04D7C3F1-D877-48AE-9A52-C155CA83CB4C">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_2855CE06-14A5-4017-A3DE-2A869EA23101">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_051B5BF4-5255-4C65-85ED-3EDFEFCA8972">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_9B19994A-8567-4B90-BFB3-CE01D735330F">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_2CE6663E-4634-432D-A64F-7D30B24737D5">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_CBE253A8-D941-4ABB-A771-D6353CC5C8BC">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E8A07A55-04A8-49E0-B29E-3B702A5DF922">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_CA6488C2-AE62-4AB9-9859-0102F2F0E20A">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_28E11D36-AB15-44D6-8B5A-BAA071E46978">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_DBF67BFF-F335-42F9-BB90-A08C8D755E01">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_7C0B8146-B933-4CDA-A9CB-B4222EDB1CCD">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_429A1EC5-F0AA-4FC8-A880-0455FB8D8570">
+            <kie:width>50</kie:width>
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_72C7666D-9DDE-4EA9-A850-5E7B220CD6E6">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_D7960BC1-758E-45B7-B2A1-D687C9861D19">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_D0448856-0A84-43DB-B403-AE7B2BB334D1">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_A7F3F535-D689-4A5D-BA3C-9803AC3240B4">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_9FF3C61C-6D5C-431E-9BA7-E977766AE6BC">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_DE796697-F9B1-46D3-A81B-B7C27380228F">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_08ABD5EB-81D7-4371-A15A-DA4AF58D40B2">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_551A138B-6EBE-4C67-BC7D-5764E02FF430">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_0704F65E-BC6C-4A0D-A9F1-EAAC631649C1">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_DCAF711B-67CF-40E2-8207-2749EEABB9BF">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_EF1148FD-8E20-484E-ACBE-A77A46348AB8">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_3679B6D2-4611-46FE-8E59-C85CEB770644">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F51E054A-8392-4685-862F-71D4E285BB97">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_7171CD34-8054-42D0-9120-5E7874AF3218">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_B68A978B-4E34-4036-A63B-0BF0657C0719">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_81CF3694-E6C3-4764-9A73-0509939EB9BB">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_82A44722-4C98-457B-A56D-6F9DA8E11D76">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_6D6C8133-00E0-4CC1-AD3D-F867DA88A8BD">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E808A490-51CB-4E86-B23F-C8172E53959E">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_5F22BF24-ACF4-49F3-9F03-F766B4EE4BBF">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_3C2B4E7F-5B9A-4706-8C17-9E824F27EB34">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_AA7E2F67-8D54-4C92-AB9A-E5F4741A51AF">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_83C968C5-22B2-4470-BDA9-326059C93D19">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_029FEB54-8EE0-449C-A362-D4EEE5183D2F">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_10289478-C376-4271-9457-5FCF15C454C5">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_4B67711C-C3DE-49B2-A6D2-B17A8FACD08B">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_83F810F9-454D-4322-BC5F-446547FC9B0A">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_357B02C8-A5AC-4A8F-BDB0-E73633013A7B">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_9120FC79-2069-405E-8404-DA2958C0F2F6">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_3D669695-6BE5-4132-91A4-B58F0074B0A9">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_D464B087-3FEC-4945-8E44-D5BA2F4F2027">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F1FDAAF1-1122-4E3C-9E5E-92EE45FCC3DA">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_D880555B-CAAE-4396-83A3-6D2A5B4647FB">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_C986D039-FA97-457A-A464-349C719E2C06">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_0677C1CE-4F4A-44A6-B38E-F1BD17689E45">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_37844265-4043-41B6-A034-F8CF4778429F">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E3E63F6F-838E-4D72-9175-842CED4AB7C0">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_B2DE2A98-2D85-4B37-B172-A5236322D8DA">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_42E5BD12-ED90-460B-BB91-BBF3EC8F4E6B">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E883F491-CC23-4DF7-A441-B694F046F84C">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_9B41B53F-4A76-4236-89E5-6B52F3CA31F2">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_C1B10827-8FCD-40FE-9310-58E3BE526D48">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_D8324C6A-DDE0-41B7-B010-4D49C0742471">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_79F897DC-16ED-43DB-AF42-B52318CE24DD">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_644AD12F-6DBC-4311-B96D-F56E3BCB27B0">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_9EA73D5D-15AA-4AC2-B483-8A3809A00D61">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_87DD4ABD-C519-498B-AEB7-936065B9D376">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E1657212-59D9-4297-B6DE-5AC0C47629D7">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_DB26FC2D-E6B5-471E-B84A-ABB459FC676C">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_62486219-D9DB-4C6A-9FFF-7B281C3F429F">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-drg-_4EECC2E3-0AAF-438E-81F7-87F4329A53B5" dmnElementRef="_4EECC2E3-0AAF-438E-81F7-87F4329A53B5" isCollapsed="false">
         <dmndi:DMNStyle>
@@ -66,6 +708,55 @@
         <dc:Bounds x="123" y="140" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_17FEFB88-5565-495B-A15D-5539C95FAF74" dmnElementRef="_17FEFB88-5565-495B-A15D-5539C95FAF74" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="350" y="143" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_620D4E5D-4F2F-4B64-8569-E61D98E95376" dmnElementRef="_620D4E5D-4F2F-4B64-8569-E61D98E95376" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="620" y="301" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_84D44B05-A587-4ECC-AFCF-94260940BD62" dmnElementRef="_84D44B05-A587-4ECC-AFCF-94260940BD62" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="620" y="378" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_348459B7-A9A6-40DA-8EF3-F99CEB8C63C0" dmnElementRef="_348459B7-A9A6-40DA-8EF3-F99CEB8C63C0" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="765" y="301" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_4B25EA71-FEEA-49FC-8514-5266EDBCD886" dmnElementRef="_4B25EA71-FEEA-49FC-8514-5266EDBCD886" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="765" y="378" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="dmnedge-drg-_CB974ED2-0BEF-4136-8F15-7A8658271852" dmnElementRef="_CB974ED2-0BEF-4136-8F15-7A8658271852">
+        <di:waypoint x="173" y="165"/>
+        <di:waypoint x="350" y="168"/>
+      </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
 </dmn:definitions>
