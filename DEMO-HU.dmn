@@ -8,49 +8,49 @@
     <dmn:itemComponent id="_A4AB675E-BAC8-42E3-A941-4EAB9273BB82" name="Edad" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_3C0BB9AC-131C-480D-9296-237D1E7961BC" name="Diagnosticos" isCollection="false">
+    <dmn:itemComponent id="_3C0BB9AC-131C-480D-9296-237D1E7961BC" name="Diagnosticos" isCollection="true">
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_DFECFDF2-2B72-4D2A-AC90-A5788A0C1082" name="AntecedentesMedicosDiagnosticos" isCollection="false">
+    <dmn:itemComponent id="_DFECFDF2-2B72-4D2A-AC90-A5788A0C1082" name="AntecedentesMedicosDiagnosticos" isCollection="true">
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_429A9209-781E-4B1E-BADF-3FA7CF298172" name="Medicamentos" isCollection="false">
+    <dmn:itemComponent id="_429A9209-781E-4B1E-BADF-3FA7CF298172" name="Medicamentos" isCollection="true">
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_DC0F63DE-A6CF-499A-B0C6-FA3C8EC29C16" name="AntecedentesMedicamentos" isCollection="false">
+    <dmn:itemComponent id="_DC0F63DE-A6CF-499A-B0C6-FA3C8EC29C16" name="AntecedentesMedicamentos" isCollection="true">
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_7B184161-CB55-4F49-B526-2CB1318DEEB8" name="hba1c" isCollection="false">
-      <dmn:itemComponent id="_D0AC32EA-543C-4B1E-A7BC-9DCAD1D65BDA" name="FechaRealizado" isCollection="false">
+      <dmn:itemComponent id="_D0AC32EA-543C-4B1E-A7BC-9DCAD1D65BDA" name="FechaRealizado" isCollection="true">
         <dmn:typeRef>date</dmn:typeRef>
       </dmn:itemComponent>
-      <dmn:itemComponent id="_E52830A5-9FE8-43EE-861B-A1AA05F4606A" name="Resultado" isCollection="false">
+      <dmn:itemComponent id="_E52830A5-9FE8-43EE-861B-A1AA05F4606A" name="Resultado" isCollection="true">
         <dmn:typeRef>number</dmn:typeRef>
       </dmn:itemComponent>
     </dmn:itemComponent>
     <dmn:itemComponent id="_C94583A2-7C63-481B-8CB0-DDE68CC5A64D" name="PTOG" isCollection="false">
-      <dmn:itemComponent id="_E348D4CB-DCC6-4EE1-A7F1-1D4F879702A4" name="FechaRealizacion" isCollection="false">
+      <dmn:itemComponent id="_E348D4CB-DCC6-4EE1-A7F1-1D4F879702A4" name="FechaRealizacion" isCollection="true">
         <dmn:typeRef>date</dmn:typeRef>
       </dmn:itemComponent>
-      <dmn:itemComponent id="_032F3E61-581A-454F-A691-24021F795BE8" name="GlucosaPreCarga" isCollection="false">
+      <dmn:itemComponent id="_032F3E61-581A-454F-A691-24021F795BE8" name="GlucosaPreCarga" isCollection="true">
         <dmn:typeRef>number</dmn:typeRef>
       </dmn:itemComponent>
-      <dmn:itemComponent id="_B6F60215-2423-43D4-A01F-9A006BC75E5C" name="GlucosaPostCarga" isCollection="false">
+      <dmn:itemComponent id="_B6F60215-2423-43D4-A01F-9A006BC75E5C" name="GlucosaPostCarga" isCollection="true">
         <dmn:typeRef>number</dmn:typeRef>
       </dmn:itemComponent>
     </dmn:itemComponent>
     <dmn:itemComponent id="_F1C1CE93-F579-4135-A804-05DEFFBD534E" name="glicemia" isCollection="false">
-      <dmn:itemComponent id="_68E1C5EC-0A84-4A6B-B9EF-18A78186E91C" name="FechaRealizacion" isCollection="false">
+      <dmn:itemComponent id="_68E1C5EC-0A84-4A6B-B9EF-18A78186E91C" name="FechaRealizacion" isCollection="true">
         <dmn:typeRef>date</dmn:typeRef>
       </dmn:itemComponent>
-      <dmn:itemComponent id="_A4ABBEC9-3B31-4B7A-B3C8-3957DB06D346" name="Resultado" isCollection="false">
+      <dmn:itemComponent id="_A4ABBEC9-3B31-4B7A-B3C8-3957DB06D346" name="Resultado" isCollection="true">
         <dmn:typeRef>number</dmn:typeRef>
       </dmn:itemComponent>
     </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:inputData id="_4EECC2E3-0AAF-438E-81F7-87F4329A53B5" name="DatosIniciales">
     <dmn:extensionElements/>
-    <dmn:variable id="_E467E4B9-9C93-429A-8DC3-C4FC957DA405" name="DatosIniciales"/>
+    <dmn:variable id="_E467E4B9-9C93-429A-8DC3-C4FC957DA405" name="DatosIniciales" typeRef="tDatosIniciales"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_FE326437-9CA7-4E79-AD43-C5891D38F30E" name="DRG">
