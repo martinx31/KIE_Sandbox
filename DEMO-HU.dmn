@@ -748,368 +748,396 @@
         <dmn:text>"A10BM011041"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_30CF7FF1-1A2C-4913-976A-70A0FB489219">
-        <dmn:text/>
+        <dmn:text>"A10BM011011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_165E9A46-FBEA-4DA8-9527-3DA8E0C20F80">
-        <dmn:text/>
+        <dmn:text>"A10BM011201"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_0B4ACDF0-897A-4826-9336-635A57801E3F">
-        <dmn:text/>
+        <dmn:text>"A10BM011043"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_F09A6AF4-B6CE-4CD3-A295-B4B3138D026F">
-        <dmn:text/>
+        <dmn:text>"A10BM011042"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_6C0D51D8-5FDD-41F1-B34C-1353F2F9574F">
-        <dmn:text/>
+        <dmn:text>"A10BM011012"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_145C5109-B7E5-4F37-B776-A63D11123A89">
-        <dmn:text/>
+        <dmn:text>"A16AB118991"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_DC8B9DFB-2C67-487A-AE7E-60A816A5B749">
-        <dmn:text/>
+        <dmn:text>"1111"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_E432F200-422A-43E2-B46A-057D8813C083">
-        <dmn:text/>
+        <dmn:text>"INS133"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_341303C1-9EFB-4566-B84E-4E49748F2D21">
-        <dmn:text/>
+        <dmn:text>"A16AB118993"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_4ED3722C-14E8-4813-81BC-BF1C817991BA">
-        <dmn:text/>
+        <dmn:text>"INS481"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_23D6A176-A5D0-4172-B628-EED119F5A279">
-        <dmn:text/>
+        <dmn:text>"INS138"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_A7F2BFAB-89D1-49DD-8168-80081F33CCE6">
-        <dmn:text/>
+        <dmn:text>"INS136"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_A18C0994-8AEE-4CC8-868D-88402B3D19E8">
-        <dmn:text/>
+        <dmn:text>"A16AB118994"</dmn:text>
       </dmn:literalExpression>
-      <dmn:expression/>
+      <dmn:literalExpression id="_4491ABFF-8215-4659-9CBA-505676FB476D">
+        <dmn:text>"INS140"</dmn:text>
+      </dmn:literalExpression>
       <dmn:literalExpression id="_DF3E5C07-5551-4EDA-8F6A-E5BD0DE7B5BB">
-        <dmn:text/>
+        <dmn:text>"54587000000"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_16B1A245-B73E-455E-B2D1-B5EB2FDB09C8">
-        <dmn:text/>
+        <dmn:text>"74501000000"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_2D7986FB-0615-447F-80C6-50B004707B3B">
-        <dmn:text/>
+        <dmn:text>"A16AB118998"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_15421FCF-EC01-4159-A6E0-34C2728BEACB">
-        <dmn:text/>
+        <dmn:text>"82133000000"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_94F30BAB-5C67-463F-A297-B3E4C625057C">
-        <dmn:text/>
+        <dmn:text>"82629000000"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_EC7D4267-75C6-4A60-8A20-7EA716C729A7">
-        <dmn:text/>
+        <dmn:text>"74502000000"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_1CA698DD-6DFB-4428-8356-13535DCDE9B1">
-        <dmn:text/>
+        <dmn:text>"A16AB118997"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_F15DCE2C-D5AE-465F-BF46-73800C884CBE">
-        <dmn:text/>
+        <dmn:text>"A10BX1431C02"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_23EAF2BA-A7CD-4F5B-8163-E1FAFAE20B2E">
-        <dmn:text/>
+        <dmn:text>"A10BX1431C01"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_F20FFE25-9C50-4563-9341-E9CBAC635C75">
-        <dmn:text/>
+        <dmn:text>"A10BE020703"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_00F9243E-BB00-4419-8549-A74BC979AC52">
-        <dmn:text/>
+        <dmn:text>"A10BX0731C02"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_ED70008B-5243-42F4-9731-95CECBA23E6F">
-        <dmn:text/>
+        <dmn:text>"A10BX0731C03"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_3C2502C5-4C69-47F2-AC3D-60FAC9A8AB83">
-        <dmn:text/>
+        <dmn:text>"A10BL119701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_FC05823A-A719-4B6B-8212-02DEF7EA0DB8">
-        <dmn:text/>
+        <dmn:text>"A10BL121701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_C6E287A0-A347-4913-8381-D4DC9833DBD9">
-        <dmn:text/>
+        <dmn:text>"A10BL121702"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_359EA86D-059E-464D-8465-A385C4CE6BFD">
-        <dmn:text/>
+        <dmn:text>"A10BJ0631C01"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_844DA356-5353-4F4C-AD82-37678C3EA64F">
-        <dmn:text/>
+        <dmn:text>"A10BJ0631C02"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_0AC5B4F5-0344-4512-BDB6-0DCB51192F70">
-        <dmn:text/>
+        <dmn:text>"A10BL117023"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_32342EDC-4DF7-439B-AEA9-AAF4DA1B4BEC">
-        <dmn:text/>
+        <dmn:text>"A10BL117021"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_BF444FE9-85A1-4500-A3B7-AE3A9D565A93">
-        <dmn:text/>
+        <dmn:text>"A10BL117022"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_59CCAF83-441E-4B64-B7DA-1407E44A6C87">
-        <dmn:text/>
+        <dmn:text>"A10BL100021"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_11702981-8223-4A6B-BB3F-F3719008DAD1">
-        <dmn:text/>
+        <dmn:text>"A10BS136042"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_E264DA32-2A01-4150-8A46-4129F18DE387">
-        <dmn:text/>
+        <dmn:text>"A10BS136041"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_5CA3A1CE-8BDE-428E-B39E-B73390184446">
-        <dmn:text/>
+        <dmn:text>"A10BM152041"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_701C9C44-5FA4-4115-843A-421B2A398292">
-        <dmn:text/>
+        <dmn:text>"A10BD0714C01"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_B2098B5F-BE16-4955-9BD0-DAF4217E49B8">
-        <dmn:text/>
+        <dmn:text>"A10BA0213C09"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_0195406A-E04D-4E0E-AFA4-A0AE136CD332">
-        <dmn:text/>
+        <dmn:text>"A10BS102012"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_066B934F-F354-48AD-B564-4DFD8F3527A5">
-        <dmn:text/>
+        <dmn:text>"A10BV072011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_5DB2F991-DE0B-4918-B56F-A9CC7CC93C7B">
-        <dmn:text/>
+        <dmn:text>"A10BV072013"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_D841BFCA-9008-4770-A123-E30F40ECA0BF">
-        <dmn:text/>
+        <dmn:text>"A10BV072012"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_54B53C76-2343-4EDB-A4B4-79177B813A9F">
-        <dmn:text/>
+        <dmn:text>"A10BM152012"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_7C5A24E3-3C14-47DC-8B75-DF90D786CF0C">
-        <dmn:text/>
+        <dmn:text>"A10BM15201"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_2F0F03B0-0558-4EFD-BA8D-76DE0ACF65C7">
-        <dmn:text/>
+        <dmn:text>"A10BM152011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_0F8F8B15-62F8-4638-8958-A9D59FDAA367">
-        <dmn:text/>
+        <dmn:text>"A10BS126021"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_3FABCAD6-60AC-4932-A860-D6D4E0EC5EBE">
-        <dmn:text/>
+        <dmn:text>"A10BS102011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_25C9AE07-4C78-4026-862D-95AC4FB6F845">
-        <dmn:text/>
+        <dmn:text>"A10BS071012"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_54D5369F-A2C8-40EC-89B5-475EB9CB5A23">
-        <dmn:text/>
+        <dmn:text>"A10BS071013"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_415A7449-42B2-43F0-8E88-6BEDA79847E8">
-        <dmn:text/>
+        <dmn:text>"A10BS071011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_1FFEDB9B-E9A5-40C4-9C94-7E4306ECC5DD">
-        <dmn:text/>
+        <dmn:text>"A10BV081011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_C835D854-6F91-4475-AE4E-8F07BB9E14DD">
-        <dmn:text/>
+        <dmn:text>"A10AB05"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_EA002508-E86C-4687-915B-EECBD68C8CB7">
-        <dmn:text/>
+        <dmn:text>"A10AI028701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_36343C8C-F9BB-47DE-B363-A1335CA3C773">
-        <dmn:text/>
+        <dmn:text>"A10AE5631C01"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_82AF2480-D192-4167-B35C-150B5D2DFC0A">
-        <dmn:text/>
+        <dmn:text>"A10AE0631C01"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_40C87D9D-9A10-4F52-90C9-B4B21BEB5D84">
-        <dmn:text/>
+        <dmn:text>"A10AI113701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_AB0BF6E6-6AA8-4889-BF31-4E86BEF0711D">
-        <dmn:text/>
+        <dmn:text>"A10AI096701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_093A16C0-BC55-40F3-96D6-0A4F4ABBF3B6">
-        <dmn:text/>
+        <dmn:text>"A10AL121702"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_08A060A5-AB88-4A08-94C5-257607133EB3">
-        <dmn:text/>
+        <dmn:text>"A10AL121701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_F5603693-3F33-463E-A588-5B0A3036A341">
-        <dmn:text/>
+        <dmn:text>"A10AE0431C02"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_B8101193-51EF-48A9-9666-3A014766EA49">
-        <dmn:text/>
+        <dmn:text>"A10AE0431C03"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_39E6334A-CDC9-4689-8581-44EAD423EDA1">
-        <dmn:text/>
+        <dmn:text>"A10AE0431C01"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_93896CC8-3384-4B7C-9914-E3C5217483E8">
-        <dmn:text/>
+        <dmn:text>"A10AI073701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_070B3623-5275-4ED5-8BAC-3F1AB27408C1">
-        <dmn:text/>
+        <dmn:text>"A10AI073704"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_99698D40-62CD-4B79-980D-94D0953AF475">
-        <dmn:text/>
+        <dmn:text>"A10AE0431C04"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_48C981F4-75CD-4598-9C6E-08035DA278A3">
-        <dmn:text/>
+        <dmn:text>"A10AI073702"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_BAA44D3A-7813-426E-8179-AE379D6A70C6">
-        <dmn:text/>
+        <dmn:text>"A10AI073703"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_317C7752-0D00-4587-9E4C-56E0139CAE9A">
-        <dmn:text/>
+        <dmn:text>"A10AB0631C03"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_4E8664F2-06A4-43AA-AAED-71711101F925">
-        <dmn:text/>
+        <dmn:text>"A10AB0631C01"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_BA647131-3DE7-4472-8FDB-0FA2B5B1AE18">
-        <dmn:text/>
+        <dmn:text>"A10AB0631C02"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_BADAADB8-DFF9-4DA5-92F1-8D051C47C580">
-        <dmn:text/>
+        <dmn:text>"A10AI054701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_01712293-508D-4158-ACB5-60B5C9555C49">
-        <dmn:text/>
+        <dmn:text>"A10AI109711"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_D61521AA-8425-4B94-A462-414824772792">
-        <dmn:text/>
+        <dmn:text>"A10AI044701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_DA320890-519C-4ACA-8609-0235CFFAE16F">
-        <dmn:text/>
+        <dmn:text>"A10AI043711"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_FE810F92-DDC7-4D44-A166-36DAEC456528">
-        <dmn:text/>
+        <dmn:text>"A10AI044703"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_DEB2DAC4-008C-453B-861E-19B3AF49464B">
-        <dmn:text/>
+        <dmn:text>"A10AI044702"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_63BABA57-7AB2-499E-A023-F00C857A2502">
-        <dmn:text/>
+        <dmn:text>"A10AI055711"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_B6212F05-D807-486E-8082-A6BE4AA9470A">
-        <dmn:text/>
+        <dmn:text>"A10AI055712"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_40F82D2A-1908-4356-8999-9A1EE2A6E0FA">
-        <dmn:text/>
+        <dmn:text>"A10AI009711"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_1651A582-592D-4565-B895-FC45485ABB2B">
-        <dmn:text/>
+        <dmn:text>"A10AI073711"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_5C1D2653-2831-4FBE-821B-F5D0FB81F1AA">
-        <dmn:text/>
+        <dmn:text>"A10AI008701"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_A0EFC194-4E40-4E7A-8B6E-E98D4AD779B8">
-        <dmn:text/>
+        <dmn:text>"A10BE134025"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_B30E0146-4B19-41F7-B1CE-55D32B7C8097">
-        <dmn:text/>
+        <dmn:text>"A10BE134023"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_B0F37DAF-7CF8-4F29-80BE-73E57357363E">
-        <dmn:text/>
+        <dmn:text>"A10BK021301"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_AC57B9B1-95D2-4829-9B96-8E0C3E92AE84">
-        <dmn:text/>
+        <dmn:text>"A10BK021382"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_BEB7D183-5A11-4DFF-A45D-C32B33F99BB3">
-        <dmn:text/>
+        <dmn:text>"A10BD1613"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_E0F4D8A0-3CCA-4C64-BA11-8E48DFE24A01">
-        <dmn:text/>
+        <dmn:text>"A10BX091021"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_5BFB6CF6-98E8-4DA4-9581-0C53F13BE9F2">
-        <dmn:text/>
+        <dmn:text>"A10BD15"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_4766A9B9-F516-43D6-9045-E89064604606">
-        <dmn:text/>
+        <dmn:text>"A10BD150000"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_BC16FC9E-9179-44D1-B168-AA3C0E137A93">
-        <dmn:text/>
+        <dmn:text>"A10BK01"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_A15A2840-4497-40EA-91D8-7A57558229C3">
-        <dmn:text/>
+        <dmn:text>"A10BE134021"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_762263DF-6D21-49E1-93FC-C54915D76465">
-        <dmn:text/>
+        <dmn:text>"A10BE134022"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_3EFE1AA8-9A79-4D6E-BD4E-301FE358A6D0">
-        <dmn:text/>
+        <dmn:text>"A10BD2013C04"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_823D8446-8FEC-48E6-84DC-8627DAF047D5">
-        <dmn:text/>
+        <dmn:text>"A10BD2013C01"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_E9CA8B4C-245B-4BF2-8ECE-A6D4D22260C1">
-        <dmn:text/>
+        <dmn:text>"A10BD20"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_2299CE9B-7472-467D-B665-85B38C734DD7">
-        <dmn:text/>
+        <dmn:text>"A10BD2013C03"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_21099D8B-B1E8-4CB7-AF64-F28AE35308D2">
-        <dmn:text/>
+        <dmn:text>"A10BG004011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_6656466F-4D49-4E2F-8DD4-D4D62FF5759D">
-        <dmn:text/>
+        <dmn:text>"A10BG028041"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_B6F7F2CF-161D-4C6A-AF63-42A5C7504291">
-        <dmn:text/>
+        <dmn:text>"A10BG028042"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_A6DF2C10-5162-489C-98E3-E671A119F41B">
-        <dmn:text/>
+        <dmn:text>"A10BD0213C10"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_BFC0B6D8-11DA-413E-9E3B-0874444D6E7C">
-        <dmn:text/>
+        <dmn:text>"A10BM140011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_CE84068C-3F77-45EE-A40F-221B2D88AB2E">
-        <dmn:text/>
+        <dmn:text>"A10BD0213C05"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_0AF41F18-91DE-4BAF-A876-33110FA56AB3">
-        <dmn:text/>
+        <dmn:text>"A10BD0213C04"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_BC1B24A8-867D-4ECC-AB3E-B88FEF2D7D1C">
-        <dmn:text/>
+        <dmn:text>"A10BM054024"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_B0D4480D-F5AD-49EC-9544-711E62561C39">
-        <dmn:text/>
+        <dmn:text>"A10BM054012"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_41C18308-E77F-487E-8561-76E35ED891C5">
-        <dmn:text/>
+        <dmn:text>"A10BM054013"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_9616871D-4DEE-45E9-B1A6-2C95CCDAD654">
-        <dmn:text/>
+        <dmn:text>"A10BG033011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_9675FFB8-A04E-4442-9BF7-F06E17035869">
-        <dmn:text/>
+        <dmn:text>"A10BG033012"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_FE9A5A51-FE22-4A68-9189-AFBF93119AAC">
-        <dmn:text/>
+        <dmn:text>"A10BP069011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_8A42784E-EA83-44D5-963B-02334E459970">
-        <dmn:text/>
+        <dmn:text>"A10BR040011"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_FC404712-552D-4D14-AA0B-A5DA554006E6">
-        <dmn:text/>
+        <dmn:text>"A10BR040012"</dmn:text>
       </dmn:literalExpression>
       <dmn:literalExpression id="_37E07739-929F-4F0D-898D-AFE9E496907B">
-        <dmn:text/>
+        <dmn:text>"A10BT017011"</dmn:text>
       </dmn:literalExpression>
     </dmn:list>
   </dmn:decision>
-  <dmn:decision id="_4AE2CD8E-4A06-4783-9DB0-3542746DC54B" name="Validación Diagnosticos">
+  <dmn:decision id="_A17DC7C3-98F1-409B-BF45-B7B136884104" name="Validación Diagnosticos">
     <dmn:extensionElements/>
-    <dmn:variable id="_7AEC990E-36C6-4E05-AC3B-B4AD52067932" name="Validación Diagnosticos"/>
-    <dmn:informationRequirement id="_34C9475F-D03E-4219-BBBE-80EAE393A480">
-      <dmn:requiredDecision href="#_17FEFB88-5565-495B-A15D-5539C95FAF74"/>
-    </dmn:informationRequirement>
-    <dmn:informationRequirement id="_633B1D98-24E3-4BC8-B2C8-F757DDA9DAE4">
-      <dmn:requiredDecision href="#_620D4E5D-4F2F-4B64-8569-E61D98E95376"/>
-    </dmn:informationRequirement>
-    <dmn:literalExpression id="_BF6C3AA6-A079-419E-94B8-3199A33E568C">
-      <dmn:text>if Validación Usuario = true and DatosIniciales.Diagnosticos in Lista D then true else false</dmn:text>
-    </dmn:literalExpression>
-  </dmn:decision>
-  <dmn:decision id="_A17DC7C3-98F1-409B-BF45-B7B136884104" name="Decision-1">
-    <dmn:extensionElements/>
-    <dmn:variable id="_285D7F91-A2C3-46C2-A38D-F74F1A3B58A0" name="Decision-1" typeRef="boolean"/>
+    <dmn:variable id="_285D7F91-A2C3-46C2-A38D-F74F1A3B58A0" name="Validación Diagnosticos" typeRef="boolean"/>
     <dmn:informationRequirement id="_B5CC50F2-1FFE-471E-996A-29237E527D30">
       <dmn:requiredDecision href="#_620D4E5D-4F2F-4B64-8569-E61D98E95376"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_539D2BB7-CFBA-409C-9F55-10B1C2AE8F7C">
       <dmn:text>some i in DatosIniciales.Diagnosticos satisfies list contains(Lista D, i)</dmn:text>
+    </dmn:literalExpression>
+  </dmn:decision>
+  <dmn:decision id="_7987399D-BC54-40C8-8444-334853F5ACF4" name="Validación AMD">
+    <dmn:extensionElements/>
+    <dmn:variable id="_D7DDE246-9705-4D83-BD68-F553DDF2EB54" name="Validación AMD" typeRef="boolean"/>
+    <dmn:informationRequirement id="_B170DE4C-FC5F-45C4-82D4-C52763E0B045">
+      <dmn:requiredDecision href="#_84D44B05-A587-4ECC-AFCF-94260940BD62"/>
+    </dmn:informationRequirement>
+    <dmn:literalExpression id="_F42F2088-56E5-4A99-922C-CD677C7D2096">
+      <dmn:text>some i in DatosIniciales.AntecedentesMedicosDiagnosticos satisfies list contains(Lista AMD, i)</dmn:text>
+    </dmn:literalExpression>
+  </dmn:decision>
+  <dmn:decision id="_ECCA6BFB-56A6-435A-B6C7-BC3754A1A39A" name="Validación Medicamentos">
+    <dmn:extensionElements/>
+    <dmn:variable id="_D8B98DAB-D496-4BCB-AA89-25876999C705" name="Validación Medicamentos"/>
+    <dmn:informationRequirement id="_CDBB845D-8E64-4F39-8EDC-6FDF4E59BF29">
+      <dmn:requiredDecision href="#_348459B7-A9A6-40DA-8EF3-F99CEB8C63C0"/>
+    </dmn:informationRequirement>
+    <dmn:literalExpression id="_9C768B9C-3018-4A90-82D8-9A4F0CA426B5">
+      <dmn:text>some i in DatosIniciales.Medicamentos satisfies list contains(Lista M, i)</dmn:text>
+    </dmn:literalExpression>
+  </dmn:decision>
+  <dmn:decision id="_52508EE5-42E7-43B3-8D0A-3AB567F25934" name="Validación AM">
+    <dmn:extensionElements/>
+    <dmn:variable id="_0664C378-D503-4342-AFE6-7BA046E5174F" name="Validación AM"/>
+    <dmn:informationRequirement id="_DC66E8EF-22A9-4091-B8F3-F1557CFDDC7A">
+      <dmn:requiredDecision href="#_4B25EA71-FEEA-49FC-8514-5266EDBCD886"/>
+    </dmn:informationRequirement>
+    <dmn:literalExpression id="_BF4F8FED-E48D-4110-AFC0-E0A0B13C55FE">
+      <dmn:text>some i in DatosIniciales.AntecedentesMedicamentos satisfies list contains(Lista AM, i)</dmn:text>
+    </dmn:literalExpression>
+  </dmn:decision>
+  <dmn:decision id="_DDC6E6AB-BBE3-47B5-961D-432E33C6078A" name="Validación hba1c">
+    <dmn:extensionElements/>
+    <dmn:variable id="_DC24B228-EEBD-42D8-8562-57346344761A" name="Validación hba1c" typeRef="boolean"/>
+    <dmn:literalExpression id="_305F231F-4710-4FE5-AEB4-968B468D2260">
+      <dmn:text>every date in DatosIniciales.hba1c.FechaRealizado satisfies date &gt;= currentDate().minusDuration("P5D")
+and every value in DatosIniciales.hba1c.Resultado satisfies value &gt;= 6.5
+</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmndi:DMNDI>
@@ -1834,6 +1862,9 @@
           <kie:ComponentWidths dmnElementRef="_A18C0994-8AEE-4CC8-868D-88402B3D19E8">
             <kie:width>190</kie:width>
           </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_4491ABFF-8215-4659-9CBA-505676FB476D">
+            <kie:width>190</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_DF3E5C07-5551-4EDA-8F6A-E5BD0DE7B5BB">
             <kie:width>190</kie:width>
           </kie:ComponentWidths>
@@ -2134,11 +2165,20 @@
           <kie:ComponentWidths dmnElementRef="_37E07739-929F-4F0D-898D-AFE9E496907B">
             <kie:width>190</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_BF6C3AA6-A079-419E-94B8-3199A33E568C">
-            <kie:width>932</kie:width>
-          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_539D2BB7-CFBA-409C-9F55-10B1C2AE8F7C">
             <kie:width>669</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_F42F2088-56E5-4A99-922C-CD677C7D2096">
+            <kie:width>1004</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_9C768B9C-3018-4A90-82D8-9A4F0CA426B5">
+            <kie:width>1125</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_BF4F8FED-E48D-4110-AFC0-E0A0B13C55FE">
+            <kie:width>812</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_305F231F-4710-4FE5-AEB4-968B468D2260">
+            <kie:width>694</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
@@ -2148,7 +2188,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="172.5981308411215" y="1" width="100" height="50"/>
+        <dc:Bounds x="149.5981308411215" y="139.68421052631578" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_17FEFB88-5565-495B-A15D-5539C95FAF74" dmnElementRef="_17FEFB88-5565-495B-A15D-5539C95FAF74" isCollapsed="false">
@@ -2166,7 +2206,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="455" y="300" width="100" height="50"/>
+        <dc:Bounds x="491" y="372" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_84D44B05-A587-4ECC-AFCF-94260940BD62" dmnElementRef="_84D44B05-A587-4ECC-AFCF-94260940BD62" isCollapsed="false">
@@ -2175,7 +2215,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="885" y="385" width="100" height="50"/>
+        <dc:Bounds x="632" y="372" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_348459B7-A9A6-40DA-8EF3-F99CEB8C63C0" dmnElementRef="_348459B7-A9A6-40DA-8EF3-F99CEB8C63C0" isCollapsed="false">
@@ -2184,7 +2224,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="1042" y="385" width="100" height="50"/>
+        <dc:Bounds x="773" y="372" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_4B25EA71-FEEA-49FC-8514-5266EDBCD886" dmnElementRef="_4B25EA71-FEEA-49FC-8514-5266EDBCD886" isCollapsed="false">
@@ -2193,16 +2233,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="1199" y="385" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-drg-_4AE2CD8E-4A06-4783-9DB0-3542746DC54B" dmnElementRef="_4AE2CD8E-4A06-4783-9DB0-3542746DC54B" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="455" y="141" width="100" height="50"/>
+        <dc:Bounds x="914" y="372" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_A17DC7C3-98F1-409B-BF45-B7B136884104" dmnElementRef="_A17DC7C3-98F1-409B-BF45-B7B136884104" isCollapsed="false">
@@ -2211,24 +2242,64 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="646" y="141" width="100" height="50"/>
+        <dc:Bounds x="491" y="271" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_7987399D-BC54-40C8-8444-334853F5ACF4" dmnElementRef="_7987399D-BC54-40C8-8444-334853F5ACF4" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="632" y="271" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_ECCA6BFB-56A6-435A-B6C7-BC3754A1A39A" dmnElementRef="_ECCA6BFB-56A6-435A-B6C7-BC3754A1A39A" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="773" y="271" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_52508EE5-42E7-43B3-8D0A-3AB567F25934" dmnElementRef="_52508EE5-42E7-43B3-8D0A-3AB567F25934" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="914" y="271" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_DDC6E6AB-BBE3-47B5-961D-432E33C6078A" dmnElementRef="_DDC6E6AB-BBE3-47B5-961D-432E33C6078A" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="1055" y="271" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_CB974ED2-0BEF-4136-8F15-7A8658271852" dmnElementRef="_CB974ED2-0BEF-4136-8F15-7A8658271852">
-        <di:waypoint x="222.5981308411215" y="26"/>
+        <di:waypoint x="199.5981308411215" y="164.68421052631578"/>
         <di:waypoint x="303" y="166"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-drg-_34C9475F-D03E-4219-BBBE-80EAE393A480" dmnElementRef="_34C9475F-D03E-4219-BBBE-80EAE393A480">
-        <di:waypoint x="353" y="166"/>
-        <di:waypoint x="455" y="166"/>
-      </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-drg-_633B1D98-24E3-4BC8-B2C8-F757DDA9DAE4" dmnElementRef="_633B1D98-24E3-4BC8-B2C8-F757DDA9DAE4">
-        <di:waypoint x="505" y="325"/>
-        <di:waypoint x="505" y="191"/>
-      </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_B5CC50F2-1FFE-471E-996A-29237E527D30" dmnElementRef="_B5CC50F2-1FFE-471E-996A-29237E527D30">
-        <di:waypoint x="505" y="325"/>
-        <di:waypoint x="696" y="191"/>
+        <di:waypoint x="541" y="397"/>
+        <di:waypoint x="541" y="321"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_B170DE4C-FC5F-45C4-82D4-C52763E0B045" dmnElementRef="_B170DE4C-FC5F-45C4-82D4-C52763E0B045">
+        <di:waypoint x="682" y="397"/>
+        <di:waypoint x="682" y="321"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_CDBB845D-8E64-4F39-8EDC-6FDF4E59BF29" dmnElementRef="_CDBB845D-8E64-4F39-8EDC-6FDF4E59BF29">
+        <di:waypoint x="823" y="397"/>
+        <di:waypoint x="823" y="321"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_DC66E8EF-22A9-4091-B8F3-F1557CFDDC7A" dmnElementRef="_DC66E8EF-22A9-4091-B8F3-F1557CFDDC7A">
+        <di:waypoint x="964" y="397"/>
+        <di:waypoint x="964" y="321"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
