@@ -1145,15 +1145,13 @@
   </dmn:decision>
   <dmn:decision id="_DDC6E6AB-BBE3-47B5-961D-432E33C6078A" name="Validación hba1c">
     <dmn:extensionElements/>
-    <dmn:variable id="_DC24B228-EEBD-42D8-8562-57346344761A" name="Validación hba1c" typeRef="boolean"/>
+    <dmn:variable id="_DC24B228-EEBD-42D8-8562-57346344761A" name="Validación hba1c" typeRef="Any"/>
     <dmn:informationRequirement id="_79164BBD-0E10-4D12-A8CF-B47C385EDC8C">
       <dmn:requiredInput href="#_4EECC2E3-0AAF-438E-81F7-87F4329A53B5"/>
     </dmn:informationRequirement>
-    <dmn:list id="_305F231F-4710-4FE5-AEB4-968B468D2260">
-      <dmn:literalExpression id="_1EDA6F42-679D-4654-85DE-BF9C98D603AD">
-        <dmn:text>count(DatosIniciales.hba1c.Resultado[&gt;=6,5])</dmn:text>
-      </dmn:literalExpression>
-    </dmn:list>
+    <dmn:literalExpression id="_305F231F-4710-4FE5-AEB4-968B468D2260">
+      <dmn:text>for i in DatosIniciales.hba1c.FechaRealizado.year return i&gt;=today().year-5 and for e in DatosIniciales.hba1c.Resultado return e &gt;=6.5</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_53D5C657-64A8-4A25-B300-65F43A21B466" name="Validación PTOG">
     <dmn:extensionElements/>
@@ -2244,11 +2242,7 @@
             <kie:width>812</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_305F231F-4710-4FE5-AEB4-968B468D2260">
-            <kie:width>50</kie:width>
-            <kie:width>752</kie:width>
-          </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_1EDA6F42-679D-4654-85DE-BF9C98D603AD">
-            <kie:width>752</kie:width>
+            <kie:width>879</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_E3B17BF3-03F1-4D8C-93B2-0F8FBA8D12C6">
             <kie:width>190</kie:width>
