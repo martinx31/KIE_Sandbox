@@ -1135,9 +1135,7 @@
     <dmn:extensionElements/>
     <dmn:variable id="_DC24B228-EEBD-42D8-8562-57346344761A" name="Validación hba1c" typeRef="boolean"/>
     <dmn:literalExpression id="_305F231F-4710-4FE5-AEB4-968B468D2260">
-      <dmn:text>every date in DatosIniciales.hba1c.FechaRealizado satisfies date &gt;= currentDate().minusDuration("P5D")
-and every value in DatosIniciales.hba1c.Resultado satisfies value &gt;= 6.5
-</dmn:text>
+      <dmn:text>if count(DatosIniciales.hba1c.Resultado[ &gt; 6.5 ]) &gt;= 2 then true else false</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmndi:DMNDI>
