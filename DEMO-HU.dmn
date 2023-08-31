@@ -1151,7 +1151,7 @@
     </dmn:informationRequirement>
     <dmn:list id="_305F231F-4710-4FE5-AEB4-968B468D2260">
       <dmn:literalExpression id="_1EDA6F42-679D-4654-85DE-BF9C98D603AD">
-        <dmn:text>if DatosIniciales.hba1c.FechaRealizado.year = today().year then true else false</dmn:text>
+        <dmn:text>count(DatosIniciales.hba1c.Resultado[&gt;=6,5])</dmn:text>
       </dmn:literalExpression>
     </dmn:list>
   </dmn:decision>
@@ -2245,10 +2245,10 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_305F231F-4710-4FE5-AEB4-968B468D2260">
             <kie:width>50</kie:width>
-            <kie:width>540</kie:width>
+            <kie:width>752</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_1EDA6F42-679D-4654-85DE-BF9C98D603AD">
-            <kie:width>540</kie:width>
+            <kie:width>752</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_E3B17BF3-03F1-4D8C-93B2-0F8FBA8D12C6">
             <kie:width>190</kie:width>
@@ -2453,6 +2453,7 @@
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_810DC043-7575-447A-A15A-4A1346D6F953" dmnElementRef="_810DC043-7575-447A-A15A-4A1346D6F953">
         <di:waypoint x="1243" y="317"/>
+        <di:waypoint x="1113" y="261"/>
         <di:waypoint x="881" y="166"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_54F52501-12E5-49FF-8D49-E61E528B2A4F" dmnElementRef="_54F52501-12E5-49FF-8D49-E61E528B2A4F">
