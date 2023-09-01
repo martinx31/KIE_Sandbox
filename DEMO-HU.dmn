@@ -55,9 +55,9 @@
     <dmn:extensionElements/>
     <dmn:variable id="_E467E4B9-9C93-429A-8DC3-C4FC957DA405" name="DatosIniciales" typeRef="tDatosIniciales"/>
   </dmn:inputData>
-  <dmn:decision id="_17FEFB88-5565-495B-A15D-5539C95FAF74" name="Validación Paciente">
+  <dmn:decision id="_17FEFB88-5565-495B-A15D-5539C95FAF74" name="Validacion_Paciente">
     <dmn:extensionElements/>
-    <dmn:variable id="_E8F476DF-8C75-4645-970A-5F46AB7DC5C3" name="Validación Paciente" typeRef="boolean"/>
+    <dmn:variable id="_E8F476DF-8C75-4645-970A-5F46AB7DC5C3" name="Validacion_Paciente" typeRef="boolean"/>
     <dmn:informationRequirement id="_FE8A69AF-1FBF-4A63-9354-4AC06B504108">
       <dmn:requiredInput href="#_4EECC2E3-0AAF-438E-81F7-87F4329A53B5"/>
     </dmn:informationRequirement>
@@ -1091,9 +1091,9 @@
       </dmn:literalExpression>
     </dmn:list>
   </dmn:decision>
-  <dmn:decision id="_A17DC7C3-98F1-409B-BF45-B7B136884104" name="Validación Diagnosticos">
+  <dmn:decision id="_A17DC7C3-98F1-409B-BF45-B7B136884104" name="Validacion_Diagnosticos">
     <dmn:extensionElements/>
-    <dmn:variable id="_285D7F91-A2C3-46C2-A38D-F74F1A3B58A0" name="Validación Diagnosticos" typeRef="boolean"/>
+    <dmn:variable id="_285D7F91-A2C3-46C2-A38D-F74F1A3B58A0" name="Validacion_Diagnosticos" typeRef="boolean"/>
     <dmn:informationRequirement id="_211E27AF-08DE-46D1-A9B9-65A5F068B8BA">
       <dmn:requiredDecision href="#_620D4E5D-4F2F-4B64-8569-E61D98E95376"/>
     </dmn:informationRequirement>
@@ -1104,9 +1104,9 @@
       <dmn:text>some i in DatosIniciales.Diagnosticos satisfies list contains(Lista D, i)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:decision id="_7987399D-BC54-40C8-8444-334853F5ACF4" name="Validación AMD">
+  <dmn:decision id="_7987399D-BC54-40C8-8444-334853F5ACF4" name="Validacion_AMD">
     <dmn:extensionElements/>
-    <dmn:variable id="_D7DDE246-9705-4D83-BD68-F553DDF2EB54" name="Validación AMD" typeRef="boolean"/>
+    <dmn:variable id="_D7DDE246-9705-4D83-BD68-F553DDF2EB54" name="Validacion_AMD" typeRef="boolean"/>
     <dmn:informationRequirement id="_EC66B1FB-7A6D-47CC-BBC9-824F68893C26">
       <dmn:requiredDecision href="#_84D44B05-A587-4ECC-AFCF-94260940BD62"/>
     </dmn:informationRequirement>
@@ -1117,9 +1117,9 @@
       <dmn:text>some i in DatosIniciales.AntecedentesMedicosDiagnosticos satisfies list contains(Lista AMD, i)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:decision id="_ECCA6BFB-56A6-435A-B6C7-BC3754A1A39A" name="Validación Medicamentos">
+  <dmn:decision id="_ECCA6BFB-56A6-435A-B6C7-BC3754A1A39A" name="Validacion_Medicamentos">
     <dmn:extensionElements/>
-    <dmn:variable id="_D8B98DAB-D496-4BCB-AA89-25876999C705" name="Validación Medicamentos" typeRef="boolean"/>
+    <dmn:variable id="_D8B98DAB-D496-4BCB-AA89-25876999C705" name="Validacion_Medicamentos" typeRef="boolean"/>
     <dmn:informationRequirement id="_A296853A-D634-49A5-BB7E-9BEF692A8618">
       <dmn:requiredDecision href="#_348459B7-A9A6-40DA-8EF3-F99CEB8C63C0"/>
     </dmn:informationRequirement>
@@ -1130,9 +1130,9 @@
       <dmn:text>some i in DatosIniciales.Medicamentos satisfies list contains(Lista M, i)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:decision id="_52508EE5-42E7-43B3-8D0A-3AB567F25934" name="Validación AM">
+  <dmn:decision id="_52508EE5-42E7-43B3-8D0A-3AB567F25934" name="Validacion_AM">
     <dmn:extensionElements/>
-    <dmn:variable id="_0664C378-D503-4342-AFE6-7BA046E5174F" name="Validación AM" typeRef="boolean"/>
+    <dmn:variable id="_0664C378-D503-4342-AFE6-7BA046E5174F" name="Validacion_AM" typeRef="boolean"/>
     <dmn:informationRequirement id="_DA99C190-3571-458D-9730-D02E6EC7D036">
       <dmn:requiredDecision href="#_4B25EA71-FEEA-49FC-8514-5266EDBCD886"/>
     </dmn:informationRequirement>
@@ -1143,9 +1143,9 @@
       <dmn:text>some i in DatosIniciales.AntecedentesMedicamentos satisfies list contains(Lista AM, i)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:decision id="_DDC6E6AB-BBE3-47B5-961D-432E33C6078A" name="Validación hba1c">
+  <dmn:decision id="_DDC6E6AB-BBE3-47B5-961D-432E33C6078A" name="Validacion_hba1c">
     <dmn:extensionElements/>
-    <dmn:variable id="_DC24B228-EEBD-42D8-8562-57346344761A" name="Validación hba1c" typeRef="boolean"/>
+    <dmn:variable id="_DC24B228-EEBD-42D8-8562-57346344761A" name="Validacion_hba1c" typeRef="boolean"/>
     <dmn:informationRequirement id="_82BC0E94-2412-4A08-AA90-1A1CE916FB62">
       <dmn:requiredDecision href="#_EE618C06-C145-4253-BB40-71E438BD990B"/>
     </dmn:informationRequirement>
@@ -1156,9 +1156,9 @@
       <dmn:text>if sum(for i in 1..count(Validacion_Resultado_hba1c) return if Validacion_Fecha_hba1c[i] and Validacion_Resultado_hba1c[i] then 1 else 0) &gt;=2 then true else false</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:decision id="_53D5C657-64A8-4A25-B300-65F43A21B466" name="Validación PTOG">
+  <dmn:decision id="_53D5C657-64A8-4A25-B300-65F43A21B466" name="Validacion_PTOG">
     <dmn:extensionElements/>
-    <dmn:variable id="_590008BA-0621-48B8-9F8E-B6CAFDFB61E8" name="Validación PTOG" typeRef="boolean"/>
+    <dmn:variable id="_590008BA-0621-48B8-9F8E-B6CAFDFB61E8" name="Validacion_PTOG" typeRef="boolean"/>
     <dmn:informationRequirement id="_C6793EAC-784F-480D-A1EF-7FDF3801A3AA">
       <dmn:requiredDecision href="#_E56B56C4-A647-4DFA-A50C-F3F23C8DB68B"/>
     </dmn:informationRequirement>
@@ -1169,12 +1169,12 @@
       <dmn:requiredDecision href="#_EBA03FEA-6B53-4B58-ADFE-92A23551CE13"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_E3B17BF3-03F1-4D8C-93B2-0F8FBA8D12C6">
-      <dmn:text>if sum(for i in 1..count(Validacion_Glucosa_Post) return if Validacion_Fecha_PTOG[i] and Validacion_Glucosa_Pre[i] and Validacion_Glucosa_Post[i] then 1 else 0) &gt;=2 then true else false</dmn:text>
+      <dmn:text>if sum(for i in 1..count(Validacion_Glucosa_Post) return if (Validacion_Fecha_PTOG[i] and Validacion_Glucosa_Pre[i] and Validacion_Glucosa_Post[i]) then 1 else 0) &gt;=2 then true else false</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:decision id="_2432003F-473C-4641-81C2-0B08ACA78932" name="Validación Glicemia">
+  <dmn:decision id="_2432003F-473C-4641-81C2-0B08ACA78932" name="Validacion_Glicemia">
     <dmn:extensionElements/>
-    <dmn:variable id="_69112C8B-C33C-4EC2-8198-B82E7AAB388C" name="Validación Glicemia" typeRef="boolean"/>
+    <dmn:variable id="_69112C8B-C33C-4EC2-8198-B82E7AAB388C" name="Validacion_Glicemia" typeRef="boolean"/>
     <dmn:informationRequirement id="_8E91938F-0B42-40CF-B3FD-1DD554C333AF">
       <dmn:requiredDecision href="#_422D4164-9CCA-414F-9FBE-DDEE53B0B8FC"/>
     </dmn:informationRequirement>
@@ -1213,7 +1213,7 @@
       <dmn:requiredDecision href="#_53D5C657-64A8-4A25-B300-65F43A21B466"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_AF81F705-1864-481A-B373-55009A817A19">
-      <dmn:text>if (Validación Paciente = true) and (Validación Diagnosticos = true or Validación AMD = true or Validación Medicamentos = true or Validación AM = true or Validación hba1c = true or Validación PTOG = true or Validación Glicemia = true) then "Pasa a decisión HU2" else "Pasa a decisión HU3"</dmn:text>
+      <dmn:text>if (Validacion_Paciente = true) and (Validacion_Diagnosticos = true or Validacion_AMD = true or Validacion_Medicamentos = true or Validacion_AM = true or Validacion_hba1c = true or Validacion_PTOG = true or Validacion_Glicemia = true) then "Pasa a decisión HU2" else "Pasa a decisión HU3"</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_EE618C06-C145-4253-BB40-71E438BD990B" name="Validacion_Fecha_hba1c">
@@ -1243,7 +1243,7 @@
       <dmn:requiredInput href="#_4EECC2E3-0AAF-438E-81F7-87F4329A53B5"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_4F4BC3F8-5D19-4182-9B6E-DD27D1A8AD0C">
-      <dmn:text>for i in DatosIniciales.PTOG.FechaRealizado.year  return i &gt; today().year-5</dmn:text>
+      <dmn:text>for i in DatosIniciales.PTOG.FechaRealizacion.year  return i &gt; today().year-5</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_E56B56C4-A647-4DFA-A50C-F3F23C8DB68B" name="Validacion_Glucosa_Pre">
@@ -1256,9 +1256,9 @@
       <dmn:text>for i in DatosIniciales.PTOG.GlucosaPreCarga  return i &gt;= 126</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:decision id="_EBA03FEA-6B53-4B58-ADFE-92A23551CE13" name="Valdacion_Glucosa_Post">
+  <dmn:decision id="_EBA03FEA-6B53-4B58-ADFE-92A23551CE13" name="Validacion_Glucosa_Post">
     <dmn:extensionElements/>
-    <dmn:variable id="_97CA966C-1757-4254-B044-29DF49396221" name="Valdacion_Glucosa_Post" typeRef="Any"/>
+    <dmn:variable id="_97CA966C-1757-4254-B044-29DF49396221" name="Validacion_Glucosa_Post" typeRef="Any"/>
     <dmn:informationRequirement id="_CBD01C12-7C96-4810-A6B7-E207CC09DCBC">
       <dmn:requiredInput href="#_4EECC2E3-0AAF-438E-81F7-87F4329A53B5"/>
     </dmn:informationRequirement>
@@ -1273,7 +1273,7 @@
       <dmn:requiredInput href="#_4EECC2E3-0AAF-438E-81F7-87F4329A53B5"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_45BA7353-43CC-41AC-852A-20DBF143175D">
-      <dmn:text>for i in DatosIniciales.glicemia.FechaRealizado.year  return i &gt; today().year-5</dmn:text>
+      <dmn:text>for i in DatosIniciales.glicemia.FechaRealizacion.year  return i &gt; today().year-5</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_5B1A482D-EDF2-4D0A-B7B8-DED4189B05C4" name="Validacion_Resultado_Glicemia">
@@ -1283,7 +1283,7 @@
       <dmn:requiredInput href="#_4EECC2E3-0AAF-438E-81F7-87F4329A53B5"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_1F6A18A8-414A-4B81-97BD-DCA692F05755">
-      <dmn:text>for i in DatosIniciales.hba1c.Resultado  return i &gt; 125</dmn:text>
+      <dmn:text>for i in DatosIniciales.glicemia.Resultado  return i &gt; 125</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmndi:DMNDI>
