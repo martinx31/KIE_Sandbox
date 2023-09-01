@@ -1286,6 +1286,10 @@
       <dmn:text>for i in DatosIniciales.glicemia.Resultado  return i &gt; 125</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
+  <dmn:decision id="_C108EA92-ACB1-4FAA-8DD4-BD7DA77544FF" name="HU3">
+    <dmn:extensionElements/>
+    <dmn:variable id="_68D4B22D-9374-446F-BA15-429558F10062" name="HU3"/>
+  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_FE326437-9CA7-4E79-AD43-C5891D38F30E" name="DRG">
       <di:extension>
@@ -2547,6 +2551,15 @@
         <dc:Bounds x="2154.1818181818185" y="396.45454545454527" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_C108EA92-ACB1-4FAA-8DD4-BD7DA77544FF" dmnElementRef="_C108EA92-ACB1-4FAA-8DD4-BD7DA77544FF" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="1519.3623666059675" y="46.70479" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_FE8A69AF-1FBF-4A63-9354-4AC06B504108" dmnElementRef="_FE8A69AF-1FBF-4A63-9354-4AC06B504108">
         <di:waypoint x="1122.2990654205607" y="701.6842105263158"/>
         <di:waypoint x="1122.2990654207752" y="613.2098726881277"/>
@@ -2716,6 +2729,20 @@
       <di:extension>
         <kie:ComponentsWidthsExtension/>
       </di:extension>
+    </dmndi:DMNDiagram>
+    <dmndi:DMNDiagram id="_608D7702-0F50-4A66-8AE9-03A25E62FAB3" name="new-diagram-2">
+      <di:extension>
+        <kie:ComponentsWidthsExtension/>
+      </di:extension>
+      <dmndi:DMNShape id="dmnshape-new-diagram-2-_C108EA92-ACB1-4FAA-8DD4-BD7DA77544FF" dmnElementRef="_C108EA92-ACB1-4FAA-8DD4-BD7DA77544FF" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="227.3623666059675" y="128.70479" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
 </dmn:definitions>
