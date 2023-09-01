@@ -1194,8 +1194,26 @@
     <dmn:informationRequirement id="_61D23654-BCF4-4EE4-803F-F9BAD0890633">
       <dmn:requiredDecision href="#_2432003F-473C-4641-81C2-0B08ACA78932"/>
     </dmn:informationRequirement>
+    <dmn:informationRequirement id="_D28D5598-08FC-44A4-A8DB-8410984185F9">
+      <dmn:requiredDecision href="#_A17DC7C3-98F1-409B-BF45-B7B136884104"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_92AF6D96-7A05-4225-9BF7-A9C3D4F6FD3D">
+      <dmn:requiredDecision href="#_7987399D-BC54-40C8-8444-334853F5ACF4"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_0870B9BC-8A9B-4F2D-9F08-49F73D9E4203">
+      <dmn:requiredDecision href="#_ECCA6BFB-56A6-435A-B6C7-BC3754A1A39A"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_DBF58D66-C28B-40BE-99D7-7418F8A75E68">
+      <dmn:requiredDecision href="#_52508EE5-42E7-43B3-8D0A-3AB567F25934"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_FDCB6E36-89E8-4674-8E82-0471305C5181">
+      <dmn:requiredDecision href="#_DDC6E6AB-BBE3-47B5-961D-432E33C6078A"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_343F6EC3-500C-45B0-8FED-54DE5B4527F0">
+      <dmn:requiredDecision href="#_53D5C657-64A8-4A25-B300-65F43A21B466"/>
+    </dmn:informationRequirement>
     <dmn:literalExpression id="_AF81F705-1864-481A-B373-55009A817A19">
-      <dmn:text>if (Validación Paciente = true) and (Validación Diagnosticos = true or Validación AMD = true or Validación Medicamentos = true or Validación AM = true) then "Pasa a decisión HU2" else "Pasa a decisión HU3"</dmn:text>
+      <dmn:text>if (Validación Paciente = true) and (Validación Diagnosticos = true or Validación AMD = true or Validación Medicamentos = true or Validación AM = true or Validación hba1c = true or Validación PTOG = true or Validación Glicemia = true) then "Pasa a decisión HU2" else "Pasa a decisión HU3"</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_EE618C06-C145-4253-BB40-71E438BD990B" name="Validacion_Fecha_hba1c">
@@ -2612,6 +2630,42 @@
       <dmndi:DMNEdge id="dmnedge-drg-_61D23654-BCF4-4EE4-803F-F9BAD0890633" dmnElementRef="_61D23654-BCF4-4EE4-803F-F9BAD0890633">
         <di:waypoint x="2126" y="317"/>
         <di:waypoint x="2126.0000073092424" y="228"/>
+        <di:waypoint x="1123" y="228"/>
+        <di:waypoint x="1123" y="117.345"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_D28D5598-08FC-44A4-A8DB-8410984185F9" dmnElementRef="_D28D5598-08FC-44A4-A8DB-8410984185F9">
+        <di:waypoint x="391" y="317"/>
+        <di:waypoint x="391.0373552165598" y="228"/>
+        <di:waypoint x="1123" y="228"/>
+        <di:waypoint x="1123" y="117.345"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_92AF6D96-7A05-4225-9BF7-A9C3D4F6FD3D" dmnElementRef="_92AF6D96-7A05-4225-9BF7-A9C3D4F6FD3D">
+        <di:waypoint x="675" y="317"/>
+        <di:waypoint x="675.0042697517266" y="227"/>
+        <di:waypoint x="1123" y="227"/>
+        <di:waypoint x="1123" y="117.345"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_0870B9BC-8A9B-4F2D-9F08-49F73D9E4203" dmnElementRef="_0870B9BC-8A9B-4F2D-9F08-49F73D9E4203">
+        <di:waypoint x="959" y="317"/>
+        <di:waypoint x="959.0000101390666" y="228"/>
+        <di:waypoint x="1123" y="228"/>
+        <di:waypoint x="1123" y="117.345"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_DBF58D66-C28B-40BE-99D7-7418F8A75E68" dmnElementRef="_DBF58D66-C28B-40BE-99D7-7418F8A75E68">
+        <di:waypoint x="1243" y="317"/>
+        <di:waypoint x="1242.9999366513584" y="228"/>
+        <di:waypoint x="1123" y="228"/>
+        <di:waypoint x="1123" y="117.345"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_FDCB6E36-89E8-4674-8E82-0471305C5181" dmnElementRef="_FDCB6E36-89E8-4674-8E82-0471305C5181">
+        <di:waypoint x="1391" y="317"/>
+        <di:waypoint x="1391.0000018058624" y="228"/>
+        <di:waypoint x="1123" y="228"/>
+        <di:waypoint x="1123" y="117.345"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-drg-_343F6EC3-500C-45B0-8FED-54DE5B4527F0" dmnElementRef="_343F6EC3-500C-45B0-8FED-54DE5B4527F0">
+        <di:waypoint x="1753" y="317"/>
+        <di:waypoint x="1753.0002783776872" y="228"/>
         <di:waypoint x="1123" y="228"/>
         <di:waypoint x="1123" y="117.345"/>
       </dmndi:DMNEdge>
