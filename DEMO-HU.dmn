@@ -64,7 +64,7 @@
       <dmn:requiredInput href="#_8D57C2F3-F500-44FE-9E30-DF494128F557"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_160667AF-135F-48B4-ABBF-A665C4FA14BF">
-      <dmn:text>if DatosPaciente.Embarazo = "N" and DatosPaciente.Edad &gt;=18 then true else false</dmn:text>
+      <dmn:text>if Datos_Paciente.Embarazo = "N" and Datos_Paciente.Edad &gt;=18 then true else false</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_A17DC7C3-98F1-409B-BF45-B7B136884104" name="Validacion_Diagnosticos">
