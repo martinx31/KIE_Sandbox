@@ -83,9 +83,9 @@
   <dmn:decision id="_5D113852-3951-400C-BBAE-CCDE84BA63A2" name="Resultado">
     <dmn:extensionElements/>
     <dmn:variable id="_D5E2D2B2-F162-43D9-A363-A9DC23B8D82E" name="Resultado" typeRef="string"/>
-    <dmn:knowledgeRequirement id="_5B151A4A-CD3E-4EF4-BD17-9A8BF40550C9">
-      <dmn:requiredKnowledge href="#_CBB174FA-D50F-474F-838D-369317AF972C"/>
-    </dmn:knowledgeRequirement>
+    <dmn:informationRequirement id="_33C46630-1BEE-43B8-9B39-78EEDCCE7ACC">
+      <dmn:requiredDecision href="#_CA2C9158-538A-40AA-9B7F-01994F5A160B"/>
+    </dmn:informationRequirement>
     <dmn:literalExpression id="_1D8D57D1-9542-4547-AEF0-BCF316AD65A6">
       <dmn:text>if Validación_Sucursales = true then "Validación correcta" else "Error en la validación"
 </dmn:text>
@@ -191,7 +191,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="532" y="129" width="100" height="50"/>
+        <dc:Bounds x="451" y="129" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_A0EAD875-47B8-4C06-A356-26D3B0867492" dmnElementRef="_A0EAD875-47B8-4C06-A356-26D3B0867492" isCollapsed="false">
@@ -223,9 +223,9 @@
         <di:waypoint x="285.5981308411215" y="395.3421052631579"/>
         <di:waypoint x="423" y="470"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-drg-_5B151A4A-CD3E-4EF4-BD17-9A8BF40550C9" dmnElementRef="_5B151A4A-CD3E-4EF4-BD17-9A8BF40550C9">
-        <di:waypoint x="581.5" y="385"/>
-        <di:waypoint x="582" y="179"/>
+      <dmndi:DMNEdge id="dmnedge-drg-_33C46630-1BEE-43B8-9B39-78EEDCCE7ACC" dmnElementRef="_33C46630-1BEE-43B8-9B39-78EEDCCE7ACC">
+        <di:waypoint x="500.5" y="312"/>
+        <di:waypoint x="501" y="179"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
     <dmndi:DMNDiagram id="_3BDFA1DE-1ADD-4E78-8156-CD156112AE38" name="new-diagram">
